@@ -7,6 +7,7 @@ Mounted at /content/drive
 
 import pandas as pd
 data = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/Mall_Customers.csv')
+
 #Check for missing values
 print("Missing values before cleaning are: \n", data.isnull().sum())
 
